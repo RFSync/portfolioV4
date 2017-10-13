@@ -27,11 +27,10 @@
 
     <!-- Custom styles for this template -->
     <link href="css/new-age.css" rel="stylesheet">
-
   </head>
 
   <body id="page-top">
-    
+  
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
@@ -61,11 +60,11 @@
         </div>
       </div>
     </nav>
-  
+  <!-- Header   -->
     <header class="masthead">
       <div class="container h-100">
         <div class="row h-100">
-          <div class="col-lg-12 my-auto text-center">
+          <div class="col-lg-10 my-auto mx-auto text-center">
             <div class="header-content mx-auto ">
               <h2 class="bold-fonts">FULL STACK DEVELOPER</h1>
               <h3 class="mb-5"> I specialize in making web applications and modern, responsive websites. </h1>
@@ -76,6 +75,8 @@
         </div>
       </div>
     </header>
+    
+    
     <section class="features bg-light-gray" id="service">
       <div class="container">
         <div class="section-heading text-center">
@@ -119,7 +120,35 @@
       </div>
     </section>
     <section class="download text-center " id="portfolio">
+      
       <div class="container">
+        <!-- PORTFOLIO ITEM 0 -->
+        <div class="row text-center portfolio-pad">
+          <div class="col-md-5 mx-auto">
+            <div class="device-container">
+              <div class="device-mockup SurfacePro3 landscape black">
+                <div class="device">
+                  <div class="screen">
+                    <img src="./img/portfolio.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>   
+          </div>
+          <div class="col-md-5 mx-auto">
+            <h1 class="section-heading">RafaelFernandez </h1>
+            <p class='text-muted text-justify'>A fully Responsive and mobile friendly (self-referential) website that display my most recent projects.
+               This website utilizes boostrap as well serveral other uitilty libraries.</p>
+            <span class="badge badge-secondary">HTML</span>
+            <span class="badge badge-secondary">CSS</span>
+            <span class="badge badge-secondary">Javascript</span>
+            <span class="badge badge-secondary">AnimateCSS</span>
+            <span class="badge badge-secondary">Clipboard</span>
+            <span class="badge badge-secondary">Boostrap</span>
+            <span class="badge badge-secondary">Jquery</span>
+          </div>
+          <hr class="animated-hr">  
+        </div>
         <!-- PORTFOLIO ITEM 1 -->
         <div class="row text-center portfolio-pad">
           <div class="col-md-5 mx-auto">
@@ -222,7 +251,7 @@
     <section class=" bg-primary" id="about">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-3 text-center ml-auto">
+          <div class="col-sm-3 text-center ml-auto">
             <img src="./img/me.jpg" class="img-fluid rounded-circle" alt=""><Br>
             <br><span class="fa-stack fa-lg grow">
               <i class="fa fa-square-o fa-stack-2x"></i>
@@ -241,7 +270,7 @@
               <a href="https://www.facebook.com/rafael.fernandez.161009"><i class="fa fa-facebook fa-stack-1x"></i></a>
             </span>
           </div>
-          <div class="col-md-4 ml-auto">
+          <div class="col-sm-4 ml-auto">
             <h2> About Me </h2>
             <p>Hey I'm Raf, I specialize in making web applications and modern, responsive websites. 
           I am located in Providence, Rhode Island and have been coding for about a year and a half, more recently
@@ -253,7 +282,7 @@
       
          
           </div>   
-          <div class="col-md-3 my-auto ml-auto">
+          <div class="col-sm-3 my-auto ml-auto">
             <a href="./img/resume.pdf" target="_blank"class="btn btn-xl about-button js-scroll-trigger">Resume</a><br>
             <a href="mailto:rafaeljeremyfernandez@gmail.com" class="btn btn-xl about-button">Email</a>
             <h4>Not working? contact information below.</h4>
@@ -282,8 +311,7 @@
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div class="modal-body">
-                    
+                  <div class="modal-body">    
                       <h4>I'm always open to have a dialog about technology, an open position or contract work</h4><br>
                       <input class="contact-input"id='phone' value="4013691072"></input>
                       <button id="copybtn" class="btn btn-outline-primary " data-clipboard-target="#phone">
@@ -291,8 +319,6 @@
                       </button><br>
                       <input class="contact-input" id='email' value='Rafaeljeremyfernandez@gmail.com'></input>
                       <button id="copybtn2" type="button" data-clipboard-target="#email" class="btn btn-outline-primary">copy</button>
-                       
-                  
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-dismiss="modal">close</button>

@@ -313,12 +313,14 @@ footer {
   letter-spacing: 2px;
   text-transform: uppercase; }
 
+
 .btn-xl {
-      font-size: 12px;
-      padding: 17px 3px;
-      width: 100%;
-      margin-top: 15px;
-      margin-bottom: 15px;
+       font-size: 12px;
+         padding: 17px 3px;
+         width: 100%;
+        margin-top: 15px;
+         margin-bottom: 15px;
+    }
   }
 
 .bold-fonts{
