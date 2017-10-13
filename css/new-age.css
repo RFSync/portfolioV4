@@ -135,8 +135,8 @@ header.masthead {
       border-radius: 3px; }
   @media (min-width: 992px) {
     header.masthead {
-      height: 100vh;
-      min-height: 775px;
+      height: 80vh;
+      min-height: 619px;
       padding-top: 0;
       padding-bottom: 0; }
       header.masthead .header-content {
@@ -149,7 +149,7 @@ header.masthead {
 
 section.download {
   position: relative;
-  padding: 150px 0; }
+  }
   section.download h2 {
     font-size: 50px;
     margin-top: 0; }
@@ -169,7 +169,7 @@ section.download {
       font-size: 70px; } }
 
 section.features .section-heading {
-  margin-bottom: 100px; }
+  }
   section.features .section-heading h2 {
     margin-top: 0; }
   section.features .section-heading p {
@@ -196,15 +196,15 @@ section.features .feature-item {
     font-size: 80px;
     display: block;
     margin-bottom: 15px;
-    background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-    background: linear-gradient(to left, #7b4397, #dc2430);
+    background: -webkit-linear-gradient(to left, #fdcc52, #fdc539);
+    background: linear-gradient(to left, #fdcc52, #fdc539);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
 
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/bg-cta.jpg");
+  background-image: url("../img/city.jpeg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -278,8 +278,15 @@ footer {
 
 .bg-primary {
   background: #fdcc52;
+  background: -webkit-linear-gradient(#34495e, #34495e);
+  background: linear-gradient(#34495e, #34495e); }
+
+.alt-color{
+  color:#fdc539;
+  background: #fdcc52;
   background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539); }
+  background: linear-gradient(to left, #fdcc52, #fdc539)};
+  
 
 .text-primary {
   color: #fdcc52; }
@@ -315,3 +322,30 @@ footer {
   border-color: white;
   color: black;
 }
+
+.bg-light-gray{
+  background-color: #ecf0f1;
+}
+
+.project {
+  width: 20rem;
+  height: 20rem;
+}
+
+i{
+  font-size: 50px
+}
+
+.portfolio-pad{
+  padding: 3rem 0;
+}
+
+.animated-hr {
+  min-width: 100%;
+  height: 3px;
+}
+
+.device-mockup>.device {
+    width: 100%;
+    height: 100%;
+  }
