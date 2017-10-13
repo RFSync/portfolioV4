@@ -34,10 +34,15 @@
       $("#mainNav").removeClass("navbar-shrink");
     }
   });
-  
-  $('#example').popover({
-      content : "The Popover Cometh"
-  });
 
+  $(function () {
+      $('[data-toggle="popover"]').popover()
+  })
   
+new Clipboard('#copybtn');
+new Clipboard('#copybtn2');
 })(jQuery); // End of use strict
+
+
+
+

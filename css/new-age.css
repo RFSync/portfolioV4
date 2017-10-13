@@ -389,6 +389,30 @@ i{
   margin: 6px;
 }
 
+.business-card{
+  height: 100px;
+}
+
+.contact-input{
+  height: 37px;
+  background-color:#C0C0C0;
+  color:black;
+  width: 75%;
+}
+.btn-outline-primary{
+  color:  #34495e;
+  border-color: #34495e;
+}
+
+.bg-alt-alt{
+  background-color: #bfc5ca;
+  color: black;
+}
+.bg-alt-alt:hover{
+  background-color: #bfc5ca;
+  color: black;
+}
+
 @media (min-width: 992px){
   .btn-xl {
         font-size: 12px;
@@ -398,3 +422,4 @@ i{
         margin-bottom: 15px;
     }
 }
+
