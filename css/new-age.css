@@ -99,8 +99,10 @@ section {
         #mainNav .navbar-nav > li > a:focus:hover {
           color: white; }
       #mainNav.navbar-shrink {
-        border-color: rgba(34, 34, 34, 0.1);
-        background-color: white; }
+        border-bottom-color: #fdcc52;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        background-color: white;}      
         #mainNav.navbar-shrink .navbar-brand {
           color: #222222; }
           #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
@@ -145,7 +147,8 @@ header.masthead {
         header.masthead .header-content h1 {
           font-size: 50px; }
       header.masthead .device-container {
-        max-width: 325px; } }
+        max-width: 325px; }
+    }
 
 section.download {
   position: relative;
@@ -311,12 +314,12 @@ footer {
   text-transform: uppercase; }
 
 .btn-xl {
-  font-size: 11px;
-  padding: 17px 58px; 
-  margin: 5px; 
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
+      font-size: 12px;
+      padding: 17px 3px;
+      width: 100%;
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
 
 .bold-fonts{
   font-weight: bold;
@@ -379,4 +382,19 @@ i{
 
 .modal-dialog {
     max-width: 633px;
+}
+
+.logo-small{
+  height: 38px;
+  margin: 6px;
+}
+
+@media (min-width: 992px){
+  .btn-xl {
+        font-size: 12px;
+        padding: 17px 3px;
+        width: 300px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 }
