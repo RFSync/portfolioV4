@@ -34,5 +34,10 @@
       $("#mainNav").removeClass("navbar-shrink");
     }
   });
+  
+  $('#example').popover({
+      content : "The Popover Cometh"
+  });
 
+  
 })(jQuery); // End of use strict
