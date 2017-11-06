@@ -441,6 +441,15 @@ a:focus {
   padding: 5px
 }
 
+.rotate-profile-img{
+  transform: rotate(4deg);
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 3px rgba(253, 204, 82,.25);
+}
+
 @media (min-width: 992px){
   .btn-xl {
         font-size: 12px;
